@@ -1,0 +1,1678 @@
+root@ubuntu-VirtualBox:~# sudo apt-get update
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial InRelease [247 kB]
+Get:2 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]     
+Hit:4 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages     
+Ign:4 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages     
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]   
+Hit:6 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages      
+Ign:6 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages      
+Hit:7 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en     
+Ign:7 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en     
+Hit:8 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Ign:8 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Hit:9 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages            
+Ign:9 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages            
+Hit:10 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+Hit:11 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages            
+Ign:11 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages            
+Hit:12 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Ign:12 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Hit:13 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en           
+Ign:13 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en           
+Hit:14 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Ign:14 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Hit:15 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata    
+Hit:16 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Ign:16 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Hit:17 http://in.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons       
+Hit:18 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+Hit:19 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages     
+Ign:19 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages     
+Hit:20 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Ign:20 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Hit:21 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages      
+Ign:21 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages      
+Hit:22 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages 
+Ign:22 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages 
+Hit:23 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en     
+Ign:23 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en     
+Hit:24 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+Ign:24 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+Hit:25 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+Hit:26 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+Ign:26 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+Hit:27 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages       
+Ign:27 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages       
+Hit:28 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+Hit:29 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages        
+Ign:29 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages        
+Hit:30 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+Ign:30 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+Hit:31 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en       
+Ign:31 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en       
+Hit:32 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+Ign:32 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+Hit:33 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+Hit:34 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+Hit:35 http://in.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons   
+Ign:34 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+Hit:36 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+Hit:37 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages    
+Ign:36 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+Ign:37 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages     
+Hit:38 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+Hit:39 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages      
+Ign:39 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages      
+Hit:40 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en     
+Ign:40 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en     
+Hit:41 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+Hit:42 http://in.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons 
+Hit:43 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages   
+Ign:43 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages   
+Hit:44 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+Ign:44 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages    
+Hit:45 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en   
+Ign:45 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en   
+Hit:46 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Ign:46 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Hit:47 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+Hit:48 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Ign:48 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Hit:49 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Ign:49 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Hit:50 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Ign:50 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Hit:51 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+Hit:52 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Ign:52 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Hit:53 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Ign:53 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Hit:54 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+Ign:54 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+Hit:55 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+Ign:55 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+Hit:56 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+Hit:57 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+Ign:57 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+Hit:58 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+Ign:58 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+Hit:59 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+Ign:59 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+Hit:60 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+Ign:60 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+Hit:61 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+Hit:62 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages 
+Ign:62 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages 
+Hit:63 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages  
+Ign:63 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages  
+Hit:64 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+Ign:64 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en 
+Hit:65 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+Ign:65 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+Ign:36 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+Hit:66 http://in.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+Hit:67 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+Hit:4 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages     
+Ign:4 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages     
+Hit:68 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+Ign:68 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+Hit:6 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages      
+Ign:6 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages      
+Hit:69 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+Ign:69 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+Hit:7 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en     
+Ign:7 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en     
+Hit:70 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+Ign:70 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+Hit:8 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Ign:8 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Hit:71 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+Ign:71 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+Hit:12 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Ign:12 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Hit:72 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons
+Hit:14 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Ign:14 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Hit:73 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+Ign:73 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+Hit:16 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Ign:16 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Hit:74 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons
+Hit:20 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Ign:20 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Hit:22 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages 
+Ign:22 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages 
+Hit:24 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+Ign:24 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+Hit:26 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+Ign:26 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+Hit:30 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+Ign:30 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+Hit:32 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+Ign:32 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+Hit:34 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+Ign:34 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+Hit:36 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+Hit:4 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages     
+Hit:6 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages      
+Hit:7 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en     
+Hit:8 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+Hit:12 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+Hit:14 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+Hit:16 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+Hit:20 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+Hit:22 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages 
+Hit:24 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+Hit:26 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+Hit:30 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+Hit:32 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+Hit:34 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+Ign:73 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+Hit:9 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+Ign:9 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+Hit:11 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+Ign:11 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+Hit:13 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en
+Ign:13 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en
+Hit:19 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+Ign:19 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+Hit:21 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+Ign:21 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+Hit:23 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+Ign:23 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+Hit:27 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+Ign:27 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+Hit:29 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+Ign:29 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages        
+Hit:31 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en       
+Ign:31 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en       
+Hit:37 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages     
+Ign:37 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages     
+Hit:39 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages      
+Ign:39 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages      
+Hit:40 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en     
+Ign:40 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en     
+Hit:43 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages   
+Ign:43 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages   
+Hit:44 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages    
+Ign:44 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages    
+Hit:45 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en   
+Ign:45 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en   
+Hit:46 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Ign:46 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Hit:48 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Ign:48 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Hit:49 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Ign:49 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Hit:50 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Ign:50 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Hit:52 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Ign:52 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Hit:53 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Ign:53 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Hit:54 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+Ign:54 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+Hit:55 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+Ign:55 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+Hit:57 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+Ign:57 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+Hit:58 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+Ign:58 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+Hit:59 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+Ign:59 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+Hit:60 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+Ign:60 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+Hit:62 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages 
+Ign:62 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages 
+Hit:63 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages  
+Ign:63 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages  
+Hit:64 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en 
+Ign:64 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en 
+Hit:65 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+Ign:65 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+Hit:68 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+Ign:68 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+Hit:69 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+Ign:69 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+Hit:70 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+Ign:70 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+Hit:71 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+Ign:71 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+Hit:73 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+Hit:9 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages            
+Hit:11 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages            
+Hit:13 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en           
+Hit:19 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages     
+Hit:21 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages      
+Hit:23 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en     
+Hit:27 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages       
+Hit:29 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages        
+Hit:31 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en       
+Hit:37 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages     
+Hit:39 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages      
+Hit:40 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en     
+Hit:43 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages   
+Hit:44 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages    
+Hit:45 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en   
+Hit:46 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+Hit:48 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+Hit:49 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+Hit:50 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+Hit:52 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+Hit:53 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+Hit:54 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+Hit:55 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+Hit:57 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+Hit:58 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+Hit:59 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+Hit:60 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+Hit:62 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages 
+Hit:63 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages  
+Hit:64 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en 
+Hit:65 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+Hit:68 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+Hit:69 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+Hit:70 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+Hit:71 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+Fetched 570 kB in 1min 18s (7,260 B/s)                                          
+Reading package lists... Done
+root@ubuntu-VirtualBox:~# 
+root@ubuntu-VirtualBox:~# 
+root@ubuntu-VirtualBox:~# 
+root@ubuntu-VirtualBox:~# sudo apt-get install default-jre
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates-java default-jre-headless fonts-dejavu-extra java-common
+  libgif7 openjdk-8-jre openjdk-8-jre-headless
+Suggested packages:
+  default-java-plugin icedtea-8-plugin fonts-ipafont-gothic
+  fonts-ipafont-mincho fonts-wqy-microhei fonts-wqy-zenhei fonts-indic
+The following NEW packages will be installed:
+  ca-certificates-java default-jre default-jre-headless fonts-dejavu-extra
+  java-common libgif7 openjdk-8-jre openjdk-8-jre-headless
+0 upgraded, 8 newly installed, 0 to remove and 358 not upgraded.
+Need to get 28.9 MB of archives.
+After this operation, 107 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 java-common all 0.56ubuntu2 [7,742 B]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openjdk-8-jre-headless amd64 8u191-b12-0ubuntu0.16.04.1 [27.1 MB]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 default-jre-headless amd64 2:1.8-56ubuntu2 [4,380 B]
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 ca-certificates-java all 20160321ubuntu1 [12.5 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgif7 amd64 5.1.4-0.3~16.04 [30.5 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openjdk-8-jre amd64 8u191-b12-0ubuntu0.16.04.1 [69.3 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 default-jre amd64 2:1.8-56ubuntu2 [980 B]
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 fonts-dejavu-extra all 2.35-1 [1,749 kB]
+Fetched 28.9 MB in 2min 24s (200 kB/s)                                          
+Selecting previously unselected package java-common.
+(Reading database ... 173163 files and directories currently installed.)
+Preparing to unpack .../java-common_0.56ubuntu2_all.deb ...
+Unpacking java-common (0.56ubuntu2) ...
+Selecting previously unselected package openjdk-8-jre-headless:amd64.
+Preparing to unpack .../openjdk-8-jre-headless_8u191-b12-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking openjdk-8-jre-headless:amd64 (8u191-b12-0ubuntu0.16.04.1) ...
+Selecting previously unselected package default-jre-headless.
+Preparing to unpack .../default-jre-headless_2%3a1.8-56ubuntu2_amd64.deb ...
+Unpacking default-jre-headless (2:1.8-56ubuntu2) ...
+Selecting previously unselected package ca-certificates-java.
+Preparing to unpack .../ca-certificates-java_20160321ubuntu1_all.deb ...
+Unpacking ca-certificates-java (20160321ubuntu1) ...
+Selecting previously unselected package libgif7:amd64.
+Preparing to unpack .../libgif7_5.1.4-0.3~16.04_amd64.deb ...
+Unpacking libgif7:amd64 (5.1.4-0.3~16.04) ...
+Selecting previously unselected package openjdk-8-jre:amd64.
+Preparing to unpack .../openjdk-8-jre_8u191-b12-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking openjdk-8-jre:amd64 (8u191-b12-0ubuntu0.16.04.1) ...
+Selecting previously unselected package default-jre.
+Preparing to unpack .../default-jre_2%3a1.8-56ubuntu2_amd64.deb ...
+Unpacking default-jre (2:1.8-56ubuntu2) ...
+Selecting previously unselected package fonts-dejavu-extra.
+Preparing to unpack .../fonts-dejavu-extra_2.35-1_all.deb ...
+Unpacking fonts-dejavu-extra (2.35-1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for ca-certificates (20170717~16.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1) ...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20160701-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for fontconfig (2.11.94-0ubuntu1.1) ...
+Setting up java-common (0.56ubuntu2) ...
+Setting up libgif7:amd64 (5.1.4-0.3~16.04) ...
+Setting up fonts-dejavu-extra (2.35-1) ...
+Setting up openjdk-8-jre-headless:amd64 (8u191-b12-0ubuntu0.16.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/jjs to provide /usr/bin/jjs (jjs) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/orbd to provide /usr/bin/orbd (orbd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/servertool to provide /usr/bin/servertool (servertool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/tnameserv to provide /usr/bin/tnameserv (tnameserv) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+Setting up default-jre-headless (2:1.8-56ubuntu2) ...
+Setting up openjdk-8-jre:amd64 (8u191-b12-0ubuntu0.16.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/policytool to provide /usr/bin/policytool (policytool) in auto mode
+Setting up default-jre (2:1.8-56ubuntu2) ...
+Setting up ca-certificates-java (20160321ubuntu1) ...
+Adding debian:Buypass_Class_2_Root_CA.pem
+Adding debian:ACCVRAIZ1.pem
+Adding debian:Entrust_Root_Certification_Authority.pem
+Adding debian:Camerfirma_Global_Chambersign_Root.pem
+Adding debian:Certum_Trusted_Network_CA.pem
+Adding debian:Staat_der_Nederlanden_EV_Root_CA.pem
+Adding debian:SecureTrust_CA.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+Adding debian:PSCProcert.pem
+Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+Adding debian:OpenTrust_Root_CA_G3.pem
+Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+Adding debian:TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+Adding debian:CA_Disig_Root_R1.pem
+Adding debian:VeriSign_Universal_Root_Certification_Authority.pem
+Adding debian:Actalis_Authentication_Root_CA.pem
+Adding debian:Amazon_Root_CA_3.pem
+Adding debian:Taiwan_GRCA.pem
+Adding debian:Trustis_FPS_Root_CA.pem
+Adding debian:DigiCert_Assured_ID_Root_G2.pem
+Adding debian:GeoTrust_Universal_CA_2.pem
+Adding debian:China_Internet_Network_Information_Center_EV_Certificates_Root.pem
+Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+Adding debian:Certplus_Root_CA_G2.pem
+Adding debian:USERTrust_ECC_Certification_Authority.pem
+Adding debian:Certum_Root_CA.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+Adding debian:Security_Communication_RootCA2.pem
+Adding debian:OpenTrust_Root_CA_G1.pem
+Adding debian:EE_Certification_Centre_Root_CA.pem
+Adding debian:COMODO_RSA_Certification_Authority.pem
+Adding debian:QuoVadis_Root_CA_1_G3.pem
+Adding debian:COMODO_Certification_Authority.pem
+Adding debian:Visa_eCommerce_Root.pem
+Adding debian:IdenTrust_Public_Sector_Root_CA_1.pem
+Adding debian:TWCA_Root_Certification_Authority.pem
+Adding debian:Certplus_Root_CA_G1.pem
+Adding debian:TeliaSonera_Root_CA_v1.pem
+Adding debian:AddTrust_Public_Services_Root.pem
+Adding debian:TURKTRUST_Certificate_Services_Provider_Root_2007.pem
+Adding debian:DST_Root_CA_X3.pem
+Adding debian:Certigna.pem
+Adding debian:UTN_USERFirst_Hardware_Root_CA.pem
+Adding debian:Entrust.net_Premium_2048_Secure_Server_CA.pem
+Adding debian:AffirmTrust_Premium_ECC.pem
+Adding debian:OISTE_WISeKey_Global_Root_GB_CA.pem
+Adding debian:ISRG_Root_X1.pem
+Adding debian:QuoVadis_Root_CA_2.pem
+Adding debian:SecureSign_RootCA11.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_2.pem
+Adding debian:Cybertrust_Global_Root.pem
+Adding debian:Swisscom_Root_EV_CA_2.pem
+Adding debian:thawte_Primary_Root_CA.pem
+Adding debian:QuoVadis_Root_CA_3.pem
+Adding debian:Entrust_Root_Certification_Authority_-_EC1.pem
+Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+Adding debian:IdenTrust_Commercial_Root_CA_1.pem
+Adding debian:DigiCert_Global_Root_G3.pem
+Adding debian:Izenpe.com.pem
+Adding debian:Global_Chambersign_Root_-_2008.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_2009.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R5.pem
+Adding debian:AffirmTrust_Networking.pem
+Adding debian:Baltimore_CyberTrust_Root.pem
+Adding debian:E-Tugra_Certification_Authority.pem
+Adding debian:OISTE_WISeKey_Global_Root_GA_CA.pem
+Adding debian:thawte_Primary_Root_CA_-_G2.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G2.pem
+Adding debian:AffirmTrust_Premium.pem
+Adding debian:Go_Daddy_Class_2_CA.pem
+Adding debian:Certinomis_-_Autorité_Racine.pem
+Adding debian:QuoVadis_Root_CA_2_G3.pem
+Adding debian:Buypass_Class_3_Root_CA.pem
+Adding debian:Certinomis_-_Root_CA.pem
+Adding debian:GlobalSign_Root_CA_-_R3.pem
+Adding debian:GeoTrust_Universal_CA.pem
+Adding debian:AC_RAIZ_FNMT-RCM.pem
+Adding debian:Secure_Global_CA.pem
+Adding debian:Comodo_Trusted_Services_root.pem
+Adding debian:Atos_TrustedRoot_2011.pem
+Adding debian:Camerfirma_Chambers_of_Commerce_Root.pem
+Adding debian:thawte_Primary_Root_CA_-_G3.pem
+Adding debian:AffirmTrust_Commercial.pem
+Adding debian:DigiCert_Assured_ID_Root_G3.pem
+Adding debian:Certum_Trusted_Network_CA_2.pem
+Adding debian:ssl-cert-snakeoil.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R4.pem
+Adding debian:GlobalSign_Root_CA.pem
+Adding debian:DigiCert_Assured_ID_Root_CA.pem
+Adding debian:Starfield_Class_2_CA.pem
+Adding debian:Chambers_of_Commerce_Root_-_2008.pem
+Adding debian:LuxTrust_Global_Root_2.pem
+Adding debian:Staat_der_Nederlanden_Root_CA_-_G2.pem
+Adding debian:AddTrust_Qualified_Certificates_Root.pem
+Adding debian:Sonera_Class_2_Root_CA.pem
+Adding debian:SZAFIR_ROOT_CA2.pem
+Adding debian:DST_ACES_CA_X6.pem
+Adding debian:Amazon_Root_CA_2.pem
+Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+Adding debian:DigiCert_Global_Root_CA.pem
+Adding debian:VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem
+Adding debian:AddTrust_External_Root.pem
+Adding debian:GeoTrust_Primary_Certification_Authority_-_G2.pem
+Adding debian:Swisscom_Root_CA_2.pem
+Adding debian:Security_Communication_EV_RootCA1.pem
+Adding debian:QuoVadis_Root_CA.pem
+Adding debian:Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem
+Adding debian:VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem
+Adding debian:COMODO_ECC_Certification_Authority.pem
+Adding debian:certSIGN_ROOT_CA.pem
+Adding debian:Network_Solutions_Certificate_Authority.pem
+Adding debian:SwissSign_Silver_CA_-_G2.pem
+Adding debian:SwissSign_Gold_CA_-_G2.pem
+Adding debian:Certplus_Class_2_Primary_CA.pem
+Adding debian:Comodo_AAA_Services_root.pem
+Adding debian:Amazon_Root_CA_4.pem
+Adding debian:QuoVadis_Root_CA_3_G3.pem
+Adding debian:Amazon_Root_CA_1.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+Adding debian:GeoTrust_Primary_Certification_Authority.pem
+Adding debian:CFCA_EV_ROOT.pem
+Adding debian:Deutsche_Telekom_Root_CA_2.pem
+Adding debian:GeoTrust_Primary_Certification_Authority_-_G3.pem
+Adding debian:DigiCert_Global_Root_G2.pem
+Adding debian:XRamp_Global_CA_Root.pem
+Adding debian:DigiCert_Trusted_Root_G4.pem
+Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+Adding debian:TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.pem
+Adding debian:CA_Disig_Root_R2.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_3.pem
+Adding debian:ACEDICOM_Root.pem
+Adding debian:Hongkong_Post_Root_CA_1.pem
+Adding debian:GeoTrust_Global_CA.pem
+Adding debian:GeoTrust_Global_CA_2.pem
+Adding debian:CNNIC_ROOT.pem
+Adding debian:AddTrust_Low-Value_Services_Root.pem
+Adding debian:TWCA_Global_Root_CA.pem
+Adding debian:OpenTrust_Root_CA_G2.pem
+Adding debian:Comodo_Secure_Services_root.pem
+Adding debian:Staat_der_Nederlanden_Root_CA_-_G3.pem
+Adding debian:ePKI_Root_Certification_Authority.pem
+Adding debian:EC-ACC.pem
+Adding debian:Swisscom_Root_CA_1.pem
+Adding debian:Security_Communication_Root_CA.pem
+Adding debian:TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.pem
+Adding debian:GlobalSign_Root_CA_-_R2.pem
+Adding debian:DigiCert_High_Assurance_EV_Root_CA.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+Adding debian:USERTrust_RSA_Certification_Authority.pem
+done.
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for ca-certificates (20170717~16.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+
+done.
+done.
+root@ubuntu-VirtualBox:~# 
+root@ubuntu-VirtualBox:~# 
+root@ubuntu-VirtualBox:~# 
+root@ubuntu-VirtualBox:~# 
+root@ubuntu-VirtualBox:~# 
+root@ubuntu-VirtualBox:~# sudo apt-get install default-jdk
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  default-jdk-headless libice-dev libpthread-stubs0-dev libsm-dev libx11-dev
+  libx11-doc libxau-dev libxcb1-dev libxdmcp-dev libxt-dev openjdk-8-jdk
+  openjdk-8-jdk-headless x11proto-core-dev x11proto-input-dev x11proto-kb-dev
+  xorg-sgml-doctools xtrans-dev
+Suggested packages:
+  libice-doc libsm-doc libxcb-doc libxt-doc openjdk-8-demo openjdk-8-source
+  visualvm
+The following NEW packages will be installed:
+  default-jdk default-jdk-headless libice-dev libpthread-stubs0-dev libsm-dev
+  libx11-dev libx11-doc libxau-dev libxcb1-dev libxdmcp-dev libxt-dev
+  openjdk-8-jdk openjdk-8-jdk-headless x11proto-core-dev x11proto-input-dev
+  x11proto-kb-dev xorg-sgml-doctools xtrans-dev
+0 upgraded, 18 newly installed, 0 to remove and 358 not upgraded.
+Need to get 13.0 MB of archives.
+After this operation, 59.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openjdk-8-jdk-headless amd64 8u191-b12-0ubuntu0.16.04.1 [8,208 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 default-jdk-headless amd64 2:1.8-56ubuntu2 [986 B]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 openjdk-8-jdk amd64 8u191-b12-0ubuntu0.16.04.1 [1,415 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 default-jdk amd64 2:1.8-56ubuntu2 [968 B]
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 xorg-sgml-doctools all 1:1.11-1 [12.9 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 x11proto-core-dev all 7.0.31-1~ubuntu16.04.2 [254 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libice-dev amd64 2:1.0.9-1 [44.9 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libpthread-stubs0-dev amd64 0.3-4 [4,068 B]
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libsm-dev amd64 2:1.2.2-1 [16.2 kB]
+Get:10 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libxau-dev amd64 1:1.0.8-1 [11.1 kB]
+Get:11 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libxdmcp-dev amd64 1:1.1.2-1.1 [25.1 kB]
+Get:12 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-input-dev all 2.3.1-1 [118 kB]
+Get:13 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 x11proto-kb-dev all 1.0.7-0ubuntu1 [224 kB]
+Get:14 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 xtrans-dev all 1.3.5-1 [70.5 kB]
+Get:15 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libxcb1-dev amd64 1.11.1-1ubuntu1 [74.2 kB]
+Get:16 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx11-dev amd64 2:1.6.3-1ubuntu2.1 [640 kB]
+Get:17 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libx11-doc all 2:1.6.3-1ubuntu2.1 [1,470 kB]
+Get:18 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libxt-dev amd64 1:1.1.5-0ubuntu1 [394 kB]
+Fetched 13.0 MB in 28s (449 kB/s)                                               
+Selecting previously unselected package openjdk-8-jdk-headless:amd64.
+(Reading database ... 173465 files and directories currently installed.)
+Preparing to unpack .../openjdk-8-jdk-headless_8u191-b12-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking openjdk-8-jdk-headless:amd64 (8u191-b12-0ubuntu0.16.04.1) ...
+Selecting previously unselected package default-jdk-headless.
+Preparing to unpack .../default-jdk-headless_2%3a1.8-56ubuntu2_amd64.deb ...
+Unpacking default-jdk-headless (2:1.8-56ubuntu2) ...
+Selecting previously unselected package openjdk-8-jdk:amd64.
+Preparing to unpack .../openjdk-8-jdk_8u191-b12-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking openjdk-8-jdk:amd64 (8u191-b12-0ubuntu0.16.04.1) ...
+Selecting previously unselected package default-jdk.
+Preparing to unpack .../default-jdk_2%3a1.8-56ubuntu2_amd64.deb ...
+Unpacking default-jdk (2:1.8-56ubuntu2) ...
+Selecting previously unselected package xorg-sgml-doctools.
+Preparing to unpack .../xorg-sgml-doctools_1%3a1.11-1_all.deb ...
+Unpacking xorg-sgml-doctools (1:1.11-1) ...
+Selecting previously unselected package x11proto-core-dev.
+Preparing to unpack .../x11proto-core-dev_7.0.31-1~ubuntu16.04.2_all.deb ...
+Unpacking x11proto-core-dev (7.0.31-1~ubuntu16.04.2) ...
+Selecting previously unselected package libice-dev:amd64.
+Preparing to unpack .../libice-dev_2%3a1.0.9-1_amd64.deb ...
+Unpacking libice-dev:amd64 (2:1.0.9-1) ...
+Selecting previously unselected package libpthread-stubs0-dev:amd64.
+Preparing to unpack .../libpthread-stubs0-dev_0.3-4_amd64.deb ...
+Unpacking libpthread-stubs0-dev:amd64 (0.3-4) ...
+Selecting previously unselected package libsm-dev:amd64.
+Preparing to unpack .../libsm-dev_2%3a1.2.2-1_amd64.deb ...
+Unpacking libsm-dev:amd64 (2:1.2.2-1) ...
+Selecting previously unselected package libxau-dev:amd64.
+Preparing to unpack .../libxau-dev_1%3a1.0.8-1_amd64.deb ...
+Unpacking libxau-dev:amd64 (1:1.0.8-1) ...
+Selecting previously unselected package libxdmcp-dev:amd64.
+Preparing to unpack .../libxdmcp-dev_1%3a1.1.2-1.1_amd64.deb ...
+Unpacking libxdmcp-dev:amd64 (1:1.1.2-1.1) ...
+Selecting previously unselected package x11proto-input-dev.
+Preparing to unpack .../x11proto-input-dev_2.3.1-1_all.deb ...
+Unpacking x11proto-input-dev (2.3.1-1) ...
+Selecting previously unselected package x11proto-kb-dev.
+Preparing to unpack .../x11proto-kb-dev_1.0.7-0ubuntu1_all.deb ...
+Unpacking x11proto-kb-dev (1.0.7-0ubuntu1) ...
+Selecting previously unselected package xtrans-dev.
+Preparing to unpack .../xtrans-dev_1.3.5-1_all.deb ...
+Unpacking xtrans-dev (1.3.5-1) ...
+Selecting previously unselected package libxcb1-dev:amd64.
+Preparing to unpack .../libxcb1-dev_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb1-dev:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libx11-dev:amd64.
+Preparing to unpack .../libx11-dev_2%3a1.6.3-1ubuntu2.1_amd64.deb ...
+Unpacking libx11-dev:amd64 (2:1.6.3-1ubuntu2.1) ...
+Selecting previously unselected package libx11-doc.
+Preparing to unpack .../libx11-doc_2%3a1.6.3-1ubuntu2.1_all.deb ...
+Unpacking libx11-doc (2:1.6.3-1ubuntu2.1) ...
+Selecting previously unselected package libxt-dev:amd64.
+Preparing to unpack .../libxt-dev_1%3a1.1.5-0ubuntu1_amd64.deb ...
+Unpacking libxt-dev:amd64 (1:1.1.5-0ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up openjdk-8-jdk-headless:amd64 (8u191-b12-0ubuntu0.16.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/idlj to provide /usr/bin/idlj (idlj) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/wsimport to provide /usr/bin/wsimport (wsimport) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jsadebugd to provide /usr/bin/jsadebugd (jsadebugd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/native2ascii to provide /usr/bin/native2ascii (native2ascii) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javah to provide /usr/bin/javah (javah) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jps to provide /usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/javap to provide /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jar to provide /usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/xjc to provide /usr/bin/xjc (xjc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/schemagen to provide /usr/bin/schemagen (schemagen) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/extcheck to provide /usr/bin/extcheck (extcheck) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/rmic to provide /usr/bin/rmic (rmic) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jhat to provide /usr/bin/jhat (jhat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/wsgen to provide /usr/bin/wsgen (wsgen) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
+Setting up default-jdk-headless (2:1.8-56ubuntu2) ...
+Setting up openjdk-8-jdk:amd64 (8u191-b12-0ubuntu0.16.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/appletviewer to provide /usr/bin/appletviewer (appletviewer) in auto mode
+update-alternatives: using /usr/lib/jvm/java-8-openjdk-amd64/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
+Setting up default-jdk (2:1.8-56ubuntu2) ...
+Setting up xorg-sgml-doctools (1:1.11-1) ...
+Setting up x11proto-core-dev (7.0.31-1~ubuntu16.04.2) ...
+Setting up libice-dev:amd64 (2:1.0.9-1) ...
+Setting up libpthread-stubs0-dev:amd64 (0.3-4) ...
+Setting up libsm-dev:amd64 (2:1.2.2-1) ...
+Setting up libxau-dev:amd64 (1:1.0.8-1) ...
+Setting up libxdmcp-dev:amd64 (1:1.1.2-1.1) ...
+Setting up x11proto-input-dev (2.3.1-1) ...
+Setting up x11proto-kb-dev (1.0.7-0ubuntu1) ...
+Setting up xtrans-dev (1.3.5-1) ...
+Setting up libxcb1-dev:amd64 (1.11.1-1ubuntu1) ...
+Setting up libx11-dev:amd64 (2:1.6.3-1ubuntu2.1) ...
+Setting up libx11-doc (2:1.6.3-1ubuntu2.1) ...
+Setting up libxt-dev:amd64 (1:1.1.5-0ubuntu1) ...
+root@ubuntu-VirtualBox:~#
+
+
+root@ubuntu-VirtualBox:/etc/apt# java -version
+openjdk version "1.8.0_191"
+OpenJDK Runtime Environment (build 1.8.0_191-8u191-b12-0ubuntu0.16.04.1-b12)
+OpenJDK 64-Bit Server VM (build 25.191-b12, mixed mode)
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# nano /etc/environment
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# source /etc/environment
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# echo $JAVA_HOME
+/usr/lib/jvm/java-8-oracle
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt#
+
+
+ 
+root@ubuntu-VirtualBox:/etc/apt# sudo apt-get update
+Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]
+Hit:2 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]     
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]   
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [902 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [795 kB]
+Fetched 2,020 kB in 7s (255 kB/s)                                               
+Reading package lists... Done
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# sudo apt-get install mysql-server
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libaio1 libevent-core-2.0-5 libhtml-template-perl mysql-client-5.7
+  mysql-client-core-5.7 mysql-common mysql-server-5.7 mysql-server-core-5.7
+Suggested packages:
+  libipc-sharedcache-perl mailx tinyca
+The following NEW packages will be installed:
+  libaio1 libevent-core-2.0-5 libhtml-template-perl mysql-client-5.7
+  mysql-client-core-5.7 mysql-common mysql-server mysql-server-5.7
+  mysql-server-core-5.7
+0 upgraded, 9 newly installed, 0 to remove and 353 not upgraded.
+Need to get 18.4 MB of archives.
+After this operation, 161 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-common all 5.7.24-0ubuntu0.16.04.1 [15.3 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaio1 amd64 0.3.110-2 [6,356 B]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-client-core-5.7 amd64 5.7.24-0ubuntu0.16.04.1 [6,030 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-client-5.7 amd64 5.7.24-0ubuntu0.16.04.1 [1,720 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server-core-5.7 amd64 5.7.24-0ubuntu0.16.04.1 [7,757 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libevent-core-2.0-5 amd64 2.0.21-stable-2ubuntu0.16.04.1 [70.6 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server-5.7 amd64 5.7.24-0ubuntu0.16.04.1 [2,726 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libhtml-template-perl all 2.95-2 [60.4 kB]
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mysql-server all 5.7.24-0ubuntu0.16.04.1 [10.8 kB]
+Fetched 18.4 MB in 17s (1,033 kB/s)                                             
+Preconfiguring packages ...
+Selecting previously unselected package mysql-common.
+(Reading database ... 175015 files and directories currently installed.)
+Preparing to unpack .../mysql-common_5.7.24-0ubuntu0.16.04.1_all.deb ...
+Unpacking mysql-common (5.7.24-0ubuntu0.16.04.1) ...
+Selecting previously unselected package libaio1:amd64.
+Preparing to unpack .../libaio1_0.3.110-2_amd64.deb ...
+Unpacking libaio1:amd64 (0.3.110-2) ...
+Selecting previously unselected package mysql-client-core-5.7.
+Preparing to unpack .../mysql-client-core-5.7_5.7.24-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking mysql-client-core-5.7 (5.7.24-0ubuntu0.16.04.1) ...
+Selecting previously unselected package mysql-client-5.7.
+Preparing to unpack .../mysql-client-5.7_5.7.24-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking mysql-client-5.7 (5.7.24-0ubuntu0.16.04.1) ...
+Selecting previously unselected package mysql-server-core-5.7.
+Preparing to unpack .../mysql-server-core-5.7_5.7.24-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking mysql-server-core-5.7 (5.7.24-0ubuntu0.16.04.1) ...
+Selecting previously unselected package libevent-core-2.0-5:amd64.
+Preparing to unpack .../libevent-core-2.0-5_2.0.21-stable-2ubuntu0.16.04.1_amd64.deb ...
+Unpacking libevent-core-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up mysql-common (5.7.24-0ubuntu0.16.04.1) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Selecting previously unselected package mysql-server-5.7.
+(Reading database ... 175183 files and directories currently installed.)
+Preparing to unpack .../mysql-server-5.7_5.7.24-0ubuntu0.16.04.1_amd64.deb ...
+Unpacking mysql-server-5.7 (5.7.24-0ubuntu0.16.04.1) ...
+Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../libhtml-template-perl_2.95-2_all.deb ...
+Unpacking libhtml-template-perl (2.95-2) ...
+Selecting previously unselected package mysql-server.
+Preparing to unpack .../mysql-server_5.7.24-0ubuntu0.16.04.1_all.deb ...
+Unpacking mysql-server (5.7.24-0ubuntu0.16.04.1) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for systemd (229-4ubuntu21.15) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libaio1:amd64 (0.3.110-2) ...
+Setting up mysql-client-core-5.7 (5.7.24-0ubuntu0.16.04.1) ...
+Setting up mysql-client-5.7 (5.7.24-0ubuntu0.16.04.1) ...
+Setting up mysql-server-core-5.7 (5.7.24-0ubuntu0.16.04.1) ...
+Setting up libevent-core-2.0-5:amd64 (2.0.21-stable-2ubuntu0.16.04.1) ...
+Setting up mysql-server-5.7 (5.7.24-0ubuntu0.16.04.1) ...
+update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+Setting up libhtml-template-perl (2.95-2) ...
+Setting up mysql-server (5.7.24-0ubuntu0.16.04.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu10) ...
+Processing triggers for systemd (229-4ubuntu21.15) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# sudo ufw allow mysql
+Rules updated
+Rules updated (v6)
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# systemctl start mysql
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# systemctl enable mysql
+Synchronizing state of mysql.service with SysV init with /lib/systemd/systemd-sysv-install...
+Executing /lib/systemd/systemd-sysv-install enable mysql
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# /usr/bin/mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 4
+Server version: 5.7.24-0ubuntu0.16.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> SELECT User, Host, authentication_string FROM mysql.user;
++------------------+-----------+-------------------------------------------+
+| User             | Host      | authentication_string                     |
++------------------+-----------+-------------------------------------------+
+| root             | localhost | *FAAFFE644E901CFAFAEC7562415E5FAEC243B8B2 |
+| mysql.session    | localhost | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE |
+| mysql.sys        | localhost | *THISISNOTAVALIDPASSWORDTHATCANBEUSEDHERE |
+| debian-sys-maint | localhost | *BC2206D2EC4A21A4B643B1D936BA5CBFFEFBB413 |
++------------------+-----------+-------------------------------------------+
+4 rows in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> 
+mysql> create database jiradb character set utf8;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> 
+mysql> create user 'jira'@'localhost' identified by 'jira123';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> 
+mysql> GRANT ALL Privileges ON jiradb.* TO 'jira'@'localhost' IDENTIFIED by 'jira123' with grant option;
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+mysql> 
+mysql> flush privileges;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> quit
+Bye
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# wget https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-6.4.10-x64.bin
+--2019-01-16 11:39:19--  https://www.atlassian.com/software/jira/downloads/binary/atlassian-jira-6.4.10-x64.bin
+Resolving www.atlassian.com (www.atlassian.com)... 18.234.32.153, 18.234.32.154, 18.234.32.152
+Connecting to www.atlassian.com (www.atlassian.com)|18.234.32.153|:443... 
+
+
+
+^C
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# 
+root@ubuntu-VirtualBox:/etc/apt# cd /home/ubuntu/Downloads/
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# ls
+atlassian-jira-software-7.13.0-x64.bin  centos_key.pem
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# ls -lart
+total 340868
+-rw-rw-r--  1 ubuntu ubuntu      1692 Jan  2 18:53 centos_key.pem
+drwxr-xr-x 16 ubuntu ubuntu      4096 Jan 15 12:11 ..
+-rw-rw-r--  1 ubuntu ubuntu 349035596 Jan 16 11:47 atlassian-jira-software-7.13.0-x64.bin
+drwxr-xr-x  2 ubuntu ubuntu      4096 Jan 16 11:47 .
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# chmod +x atlassian-jira-software-7.13.0-x64.bin
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# ./atlassian-jira-6.4.10-x64.bin
+-su: ./atlassian-jira-6.4.10-x64.bin: No such file or directory
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# ./atlassian-jira-software-7.13.0-x64.bin
+Unpacking JRE ...
+Starting Installer ...
+Jan 16, 2019 11:50:01 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+
+This will install JIRA Software 7.13.0 on your computer.
+OK [o, Enter], Cancel [c]
+o
+Choose the appropriate installation or upgrade option.
+Please choose one of the following:
+Express Install (use default settings) [1], Custom Install (recommended for advanced users) [2, Enter], Upgrade an existing JIRA installation [3]
+1   
+Details on where JIRA Software will be installed and the settings that will be used.
+Installation Directory: /opt/atlassian/jira 
+Home Directory: /var/atlassian/application-data/jira 
+HTTP Port: 8080 
+RMI Port: 8005 
+Install as service: Yes 
+Install [i, Enter], Exit [e]
+i
+
+Extracting files ...
+                                                                           
+
+Please wait a few moments while JIRA Software is configured.
+Installation of JIRA Software 7.13.0 is complete
+Start JIRA Software 7.13.0 now?
+Yes [y, Enter], No [n]
+y
+
+Please wait a few moments while JIRA Software starts up.
+Launching JIRA Software ...
+Installation of JIRA Software 7.13.0 is complete
+Your installation of JIRA Software 7.13.0 is now ready and can be accessed
+via your browser.
+JIRA Software 7.13.0 can be accessed at http://localhost:8080
+Finishing installation ...
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# /etc/init.d/jira start
+
+To run JIRA in the foreground, start the server with start-jira.sh -fg
+executing using dedicated user: jira
+                .....
+          .... .NMMMD.  ...
+        .8MMM.  $MMN,..~MMMO.
+        .?MMM.         .MMM?.
+
+     OMMMMZ.           .,NMMMN~
+     .IMMMMMM. .NMMMN. .MMMMMN,
+       ,MMMMMM$..3MD..ZMMMMMM.
+        =NMMMMMM,. .,MMMMMMD.
+         .MMMMMMMM8MMMMMMM,
+           .ONMMMMMMMMMMZ.
+             ,NMMMMMMM8.
+            .:,.$MMMMMMM
+          .IMMMM..NMMMMMD.
+         .8MMMMM:  :NMMMMN.
+         .MMMMMM.   .MMMMM~.
+         .MMMMMN    .MMMMM?.
+
+      Atlassian JIRA
+      Version : 7.13.0
+                  
+
+If you encounter issues starting or stopping JIRA, please see the Troubleshooting guide at http://confluence.atlassian.com/display/JIRA/Installation+Troubleshooting+Guide
+
+
+Server startup logs are located in /opt/atlassian/jira/logs/catalina.out
+Using CATALINA_BASE:   /opt/atlassian/jira
+Using CATALINA_HOME:   /opt/atlassian/jira
+Using CATALINA_TMPDIR: /opt/atlassian/jira/temp
+Using JRE_HOME:        /opt/atlassian/jira/jre/
+Using CLASSPATH:       /opt/atlassian/jira/bin/bootstrap.jar:/opt/atlassian/jira/bin/tomcat-juli.jar
+Using CATALINA_PID:    /opt/atlassian/jira/work/catalina.pid
+Existing PID file found during start.
+Tomcat appears to still be running with PID 17584. Start aborted.
+If the following process is not a Tomcat process, remove the PID file and try again:
+UID        PID  PPID  C STIME TTY          TIME CMD
+jira     17584  1295 52 11:52 ?        00:00:25 /opt/atlassian/jira/jre//bin/java
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# ls -lart
+total 344992
+-rw-rw-r--  1 ubuntu ubuntu      1692 Jan  2 18:53 centos_key.pem
+drwxr-xr-x 16 ubuntu ubuntu      4096 Jan 15 12:11 ..
+-rwxrwxr-x  1 ubuntu ubuntu 349035596 Jan 16 11:47 atlassian-jira-software-7.13.0-x64.bin
+-rw-rw-r--  1 ubuntu ubuntu   4221423 Jan 16 11:58 mysql-connector-java-5.1.36.zip
+drwxr-xr-x  2 ubuntu ubuntu      4096 Jan 16 11:58 .
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# unzip mysql-connector-java-5.1.36.zip
+Archive:  mysql-connector-java-5.1.36.zip
+   creating: mysql-connector-java-5.1.36/
+   creating: mysql-connector-java-5.1.36/docs/
+   creating: mysql-connector-java-5.1.36/src/
+   creating: mysql-connector-java-5.1.36/src/com/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/fabric/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/fabric/hibernate/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/fabric/jdbc/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/fabric/proto/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/fabric/proto/xmlrpc/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/exceptions/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/authentication/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/configs/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/integration/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/integration/c3p0/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/integration/jboss/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/interceptors/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jmx/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/log/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/profiler/
+   creating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/
+   creating: mysql-connector-java-5.1.36/src/demo/
+   creating: mysql-connector-java-5.1.36/src/demo/fabric/
+   creating: mysql-connector-java-5.1.36/src/demo/fabric/resources/
+   creating: mysql-connector-java-5.1.36/src/demo/fabric/resources/com/
+   creating: mysql-connector-java-5.1.36/src/demo/fabric/resources/com/mysql/
+   creating: mysql-connector-java-5.1.36/src/demo/fabric/resources/com/mysql/fabric/
+   creating: mysql-connector-java-5.1.36/src/demo/fabric/resources/com/mysql/fabric/demo/
+   creating: mysql-connector-java-5.1.36/src/doc/
+   creating: mysql-connector-java-5.1.36/src/doc/sources/
+   creating: mysql-connector-java-5.1.36/src/lib/
+   creating: mysql-connector-java-5.1.36/src/org/
+   creating: mysql-connector-java-5.1.36/src/org/gjt/
+   creating: mysql-connector-java-5.1.36/src/org/gjt/mm/
+   creating: mysql-connector-java-5.1.36/src/org/gjt/mm/mysql/
+   creating: mysql-connector-java-5.1.36/src/testsuite/
+   creating: mysql-connector-java-5.1.36/src/testsuite/fabric/
+   creating: mysql-connector-java-5.1.36/src/testsuite/fabric/jdbc/
+   creating: mysql-connector-java-5.1.36/src/testsuite/perf/
+   creating: mysql-connector-java-5.1.36/src/testsuite/regression/
+   creating: mysql-connector-java-5.1.36/src/testsuite/regression/jdbc4/
+   creating: mysql-connector-java-5.1.36/src/testsuite/simple/
+   creating: mysql-connector-java-5.1.36/src/testsuite/simple/jdbc4/
+   creating: mysql-connector-java-5.1.36/src/testsuite/ssl-test-certs/
+  inflating: mysql-connector-java-5.1.36/CHANGES  
+  inflating: mysql-connector-java-5.1.36/COPYING  
+  inflating: mysql-connector-java-5.1.36/README  
+  inflating: mysql-connector-java-5.1.36/README.txt  
+  inflating: mysql-connector-java-5.1.36/build.xml  
+  inflating: mysql-connector-java-5.1.36/docs/README.txt  
+  inflating: mysql-connector-java-5.1.36/docs/connector-j.html  
+  inflating: mysql-connector-java-5.1.36/docs/connector-j.pdf  
+  inflating: mysql-connector-java-5.1.36/mysql-connector-java-5.1.36-bin.jar  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/FabricCommunicationException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/FabricConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/FabricStateResponse.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/HashShardMapping.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/RangeShardMapping.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/Response.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/Server.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/ServerGroup.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/ServerMode.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/ServerRole.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/ShardIndex.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/ShardMapping.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/ShardMappingFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/ShardTable.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/ShardingType.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/hibernate/FabricMultiTenantConnectionProvider.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/jdbc/ErrorReportingExceptionInterceptor.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/jdbc/FabricMySQLConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/jdbc/FabricMySQLConnectionProperties.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/jdbc/FabricMySQLConnectionProxy.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/jdbc/FabricMySQLDataSource.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/jdbc/FabricMySQLDriver.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/jdbc/JDBC4FabricMySQLConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/jdbc/JDBC4FabricMySQLConnectionProxy.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/proto/xmlrpc/AuthenticatedXmlRpcMethodCaller.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/proto/xmlrpc/DigestAuthentication.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/proto/xmlrpc/InternalXmlRpcMethodCaller.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/proto/xmlrpc/ResultSetParser.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/proto/xmlrpc/XmlRpcClient.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/proto/xmlrpc/XmlRpcMethodCaller.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/Client.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/Array.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/Data.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/Fault.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/Member.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/MethodCall.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/MethodResponse.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/Param.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/Params.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/ResponseParser.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/Struct.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/base/Value.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/fabric/xmlrpc/exceptions/MySQLFabricException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/AbandonedConnectionCleanupThread.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/AssertionFailedException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/AuthenticationPlugin.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/BalanceStrategy.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/BestResponseTimeBalanceStrategy.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Blob.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/BlobFromLocator.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Buffer.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/BufferRow.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ByteArrayRow.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/CacheAdapter.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/CacheAdapterFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/CachedResultSetMetaData.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/CallableStatement.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/CharsetMapping.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Charsets.properties  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Clob.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/CommunicationsException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/CompressedInputStream.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Connection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ConnectionFeatureNotAvailableException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ConnectionGroup.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ConnectionGroupManager.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ConnectionImpl.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ConnectionLifecycleInterceptor.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ConnectionProperties.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ConnectionPropertiesImpl.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ConnectionPropertiesTransform.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Constants.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/DatabaseMetaData.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/DatabaseMetaDataUsingInfoSchema.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/DocsConnectionPropsHelper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Driver.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/EscapeProcessor.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/EscapeProcessorResult.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/EscapeTokenizer.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ExceptionInterceptor.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ExportControlled.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Extension.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/FailoverConnectionProxy.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Field.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/IterateBlock.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4CallableStatement.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4ClientInfoProvider.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4ClientInfoProviderSP.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4CommentClientInfoProvider.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4Connection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4DatabaseMetaData.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4DatabaseMetaDataUsingInfoSchema.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4LoadBalancedMySQLConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4MultiHostMySQLConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4MySQLConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4MysqlSQLXML.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4NClob.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4PreparedStatement.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4PreparedStatementHelper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4ResultSet.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4ServerPreparedStatement.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/JDBC4UpdatableResultSet.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/LicenseConfiguration.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/LoadBalanceExceptionChecker.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/LoadBalancedAutoCommitInterceptor.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/LoadBalancedConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/LoadBalancedMySQLConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/LoadBalancingConnectionProxy.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/LocalizedErrorMessages.properties  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Messages.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/MiniAdmin.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/MultiHostConnectionProxy.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/MultiHostMySQLConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/MySQLConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/MysqlDataTruncation.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/MysqlDefs.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/MysqlErrorNumbers.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/MysqlIO.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/MysqlParameterMetadata.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/MysqlSavepoint.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/NamedPipeSocketFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/NdbLoadBalanceExceptionChecker.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/NetworkResources.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/NoSubInterceptorWrapper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/NonRegisteringDriver.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/NonRegisteringReplicationDriver.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/NotImplemented.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/NotUpdatable.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/OperationNotSupportedException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/OutputStreamWatcher.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/PacketTooBigException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ParameterBindings.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/PerConnectionLRUFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/PerVmServerConfigCacheFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/PingTarget.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/PreparedStatement.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ProfilerEventHandlerFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/RandomBalanceStrategy.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ReflectiveStatementInterceptorAdapter.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ReplicationConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ReplicationConnectionGroup.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ReplicationConnectionGroupManager.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ReplicationDriver.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ResultSetImpl.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ResultSetInternalMethods.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ResultSetMetaData.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ResultSetRow.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/RowData.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/RowDataCursor.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/RowDataDynamic.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/RowDataStatic.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/SQLError.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Security.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/SequentialBalanceStrategy.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/ServerPreparedStatement.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/SingleByteCharsetConverter.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/SocketFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/SocketMetadata.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/SocksProxySocketFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/StandardLoadBalanceExceptionChecker.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/StandardSocketFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Statement.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/StatementImpl.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/StatementInterceptor.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/StatementInterceptorV2.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/StreamingNotifiable.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/StringUtils.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/TimeUtil.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/TimeZoneMapping.properties  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/UpdatableResultSet.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/Util.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/V1toV2StatementInterceptorAdapter.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/WatchableOutputStream.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/WatchableWriter.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/WriterWatcher.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/authentication/MysqlClearPasswordPlugin.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/authentication/MysqlNativePasswordPlugin.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/authentication/MysqlOldPasswordPlugin.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/authentication/Sha256PasswordPlugin.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/configs/3-0-Compat.properties  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/configs/5-0-Compat.properties  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/configs/clusterBase.properties  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/configs/coldFusion.properties  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/configs/fullDebug.properties  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/configs/maxPerformance.properties  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/configs/solarisMaxPerformance.properties  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/DeadlockTimeoutRollbackMarker.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLDataException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLIntegrityConstraintViolationException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLInvalidAuthorizationSpecException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLNonTransientConnectionException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLNonTransientException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLQueryInterruptedException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLStatementCancelledException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLSyntaxErrorException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLTimeoutException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLTransactionRollbackException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLTransientConnectionException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/MySQLTransientException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/CommunicationsException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLDataException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLIntegrityConstraintViolationException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLInvalidAuthorizationSpecException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientConnectionException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLQueryInterruptedException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLSyntaxErrorException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTimeoutException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTransactionRollbackException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTransientConnectionException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTransientException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/integration/c3p0/MysqlConnectionTester.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/integration/jboss/ExtendedMysqlExceptionSorter.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/integration/jboss/MysqlValidConnectionChecker.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/interceptors/ResultSetScannerInterceptor.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/interceptors/ServerStatusDiffInterceptor.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/interceptors/SessionAssociationInterceptor.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/CallableStatementWrapper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/ConnectionWrapper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/JDBC4CallableStatementWrapper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/JDBC4ConnectionWrapper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/JDBC4MysqlPooledConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/JDBC4MysqlXAConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/JDBC4PreparedStatementWrapper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/JDBC4StatementWrapper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/JDBC4SuspendableXAConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/MysqlConnectionPoolDataSource.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/MysqlDataSource.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/MysqlDataSourceFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/MysqlPooledConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/MysqlXAConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/MysqlXADataSource.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/MysqlXAException.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/MysqlXid.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/PreparedStatementWrapper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/StatementWrapper.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/SuspendableXAConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jdbc2/optional/WrapperBase.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManager.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManagerMBean.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jmx/ReplicationGroupManager.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/jmx/ReplicationGroupManagerMBean.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/log/Jdk14Logger.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/log/Log.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/log/LogFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/log/LogUtils.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/log/NullLogger.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/log/Slf4JLogger.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/log/StandardLogger.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/profiler/LoggingProfilerEventHandler.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/profiler/ProfilerEvent.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/profiler/ProfilerEventHandler.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/Base64Decoder.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/BaseBugReport.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/ErrorMappingsDocGenerator.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/LRUCache.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/PropertiesDocGenerator.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/ReadAheadInputStream.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/ResultSetUtil.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/ServerController.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/TimezoneDump.java  
+  inflating: mysql-connector-java-5.1.36/src/com/mysql/jdbc/util/VersionFSHierarchyMaker.java  
+  inflating: mysql-connector-java-5.1.36/src/demo/fabric/Client1_Fabric.java  
+  inflating: mysql-connector-java-5.1.36/src/demo/fabric/Employee.java  
+  inflating: mysql-connector-java-5.1.36/src/demo/fabric/EmployeesJdbc.java  
+  inflating: mysql-connector-java-5.1.36/src/demo/fabric/HibernateFabric.java  
+  inflating: mysql-connector-java-5.1.36/src/demo/fabric/resources/com/mysql/fabric/demo/employee.hbm.xml  
+  inflating: mysql-connector-java-5.1.36/src/doc/sources/pom.xml  
+  inflating: mysql-connector-java-5.1.36/src/lib/c3p0-0.9.1-pre6.jar  
+  inflating: mysql-connector-java-5.1.36/src/lib/c3p0-0.9.1-pre6.src.zip  
+  inflating: mysql-connector-java-5.1.36/src/lib/jboss-common-jdbc-wrapper-src.jar  
+  inflating: mysql-connector-java-5.1.36/src/lib/jboss-common-jdbc-wrapper.jar  
+  inflating: mysql-connector-java-5.1.36/src/lib/slf4j-api-1.6.1.jar  
+  inflating: mysql-connector-java-5.1.36/src/org/gjt/mm/mysql/Driver.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/BaseStatementInterceptor.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/BaseTestCase.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/UnreliableSocketFactory.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/BaseFabricTestCase.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/SetupFabricTestsuite.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/TestAdminCommands.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/TestDumpCommands.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/TestResultSetParser.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/TestShardMapping.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/TestXmlRpcCore.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/jdbc/TestBasicConnection.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/jdbc/TestFabricMySQLConnectionSharding.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/jdbc/TestHABasics.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/jdbc/TestHashSharding.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/fabric/jdbc/TestRegressions.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/perf/BasePerfTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/perf/LoadStorePerfTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/perf/RetrievalPerfTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/BlobRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/CachedRowsetTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/CallableStatementRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/CharsetRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/ConnectionRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/DataSourceRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/EscapeProcessorRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/MetaDataRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/MicroPerformanceRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/NumbersRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/PooledConnectionRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/ResultSetRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/StatementRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/StressRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/StringRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/SubqueriesRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/SyntaxRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/UtilsRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/jdbc4/ConnectionRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/jdbc4/ExceptionSubclassesTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/jdbc4/MetaDataRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/regression/jdbc4/StatementRegressionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/BlobTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/CallableStatementTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/CharsetTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/ConnectionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/DataSourceTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/DateTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/EscapeProcessingTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/MetadataTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/MiniAdminTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/MultiHostConnectionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/NumbersTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/ReadOnlyCallableStatementTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/ResultSetTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/SSLTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/ServerControllerTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/SimpleTransformer.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/SplitDBdotNameTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/StatementsTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/StringUtilsTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/TestBug57662Logger.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/TestLifecycleInterceptor.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/TransactionTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/TraversalTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/UpdatabilityTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/UtilsTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/XATest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/jdbc4/StatementsTest.java  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/simple/tb2-data.txt.gz  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/ssl-test-certs/ca-cert.pem  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/ssl-test-certs/ca-key.pem  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/ssl-test-certs/mykey.pem  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/ssl-test-certs/mykey.pub  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/ssl-test-certs/server-cert.pem  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/ssl-test-certs/server-key.pem  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/ssl-test-certs/server-req.pem  
+  inflating: mysql-connector-java-5.1.36/src/testsuite/ssl-test-certs/test-cert-store  
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# ls -lart
+total 344996
+drwxr-xr-x  4 root   root        4096 Jun 19  2015 mysql-connector-java-5.1.36
+-rw-rw-r--  1 ubuntu ubuntu      1692 Jan  2 18:53 centos_key.pem
+drwxr-xr-x 16 ubuntu ubuntu      4096 Jan 15 12:11 ..
+-rwxrwxr-x  1 ubuntu ubuntu 349035596 Jan 16 11:47 atlassian-jira-software-7.13.0-x64.bin
+-rw-rw-r--  1 ubuntu ubuntu   4221423 Jan 16 11:58 mysql-connector-java-5.1.36.zip
+drwxr-xr-x  3 ubuntu ubuntu      4096 Jan 16 11:59 .
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads# cd mysql-connector-java-5.1.36
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads/mysql-connector-java-5.1.36# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads/mysql-connector-java-5.1.36# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads/mysql-connector-java-5.1.36# ls -lart
+total 1436
+drwxr-xr-x 8 root   root     4096 Jun 19  2015 src
+-rw-r--r-- 1 root   root    63674 Jun 19  2015 README.txt
+-rw-r--r-- 1 root   root    61423 Jun 19  2015 README
+-rw-r--r-- 1 root   root   972009 Jun 19  2015 mysql-connector-java-5.1.36-bin.jar
+drwxr-xr-x 2 root   root     4096 Jun 19  2015 docs
+-rw-r--r-- 1 root   root    18122 Jun 19  2015 COPYING
+-rw-r--r-- 1 root   root   235082 Jun 19  2015 CHANGES
+-rw-r--r-- 1 root   root    90430 Jun 19  2015 build.xml
+drwxr-xr-x 4 root   root     4096 Jun 19  2015 .
+drwxr-xr-x 3 ubuntu ubuntu   4096 Jan 16 11:59 ..
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads/mysql-connector-java-5.1.36# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads/mysql-connector-java-5.1.36# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads/mysql-connector-java-5.1.36# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads/mysql-connector-java-5.1.36# cp mysql-connector-java-5.1.36-bin.jar /opt/jira/lib/
+cp: cannot create regular file '/opt/jira/lib/': No such file or directory
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads/mysql-connector-java-5.1.36# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads/mysql-connector-java-5.1.36# 
+root@ubuntu-VirtualBox:/home/ubuntu/Downloads/mysql-connector-java-5.1.36# cd /opt/
+root@ubuntu-VirtualBox:/opt# find *jira*
+find: ‘*jira*’: No such file or directory
+root@ubuntu-VirtualBox:/opt# 
+root@ubuntu-VirtualBox:/opt# ls -lart
+total 12
+drwxr-xr-x 24 root root 4096 Jan  2 17:27 ..
+drwxr-xr-x  3 root root 4096 Jan 16 11:50 atlassian
+drwxr-xr-x  3 root root 4096 Jan 16 11:50 .
+root@ubuntu-VirtualBox:/opt# cd atlassian
+root@ubuntu-VirtualBox:/opt/atlassian# ls
+jira
+root@ubuntu-VirtualBox:/opt/atlassian# cd jira/
+root@ubuntu-VirtualBox:/opt/atlassian/jira# ls
+atlassian-jira  external-source  lib       NOTICE       temp         webapps
+bin             install.reg      licenses  README.html  tomcat-docs  work
+conf            jre              logs      README.txt   uninstall
+root@ubuntu-VirtualBox:/opt/atlassian/jira# cd lib
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# ls
+annotations-api.jar         jonas_timer-1.4.3.jar           tomcat-api.jar
+carol-1.5.2.jar             jotm-1.4.3.jar                  tomcat-coyote.jar
+carol-properties-1.5.2.jar  jotm-iiop_stubs-1.4.3.jar       tomcat-dbcp.jar
+catalina-ant.jar            jotm-jrmp_stubs-1.4.3.jar       tomcat-i18n-es.jar
+catalina-ha.jar             jsp-api.jar                     tomcat-i18n-fr.jar
+catalina.jar                jta-1.0.1B.jar                  tomcat-i18n-ja.jar
+catalina-storeconfig.jar    jul-to-slf4j-1.7.9.jar          tomcat-jdbc.jar
+catalina-tribes.jar         log4j-1.2.16.jar                tomcat-jni.jar
+ecj-4.6.3.jar               mssql-jdbc-6.2.1.jre8.jar       tomcat-util.jar
+el-api.jar                  objectweb-datasource-1.4.3.jar  tomcat-util-scan.jar
+hsqldb-1.8.0.5.jar          ots-jts-1.0.jar                 tomcat-websocket.jar
+jasper-el.jar               postgresql-9.4.1212.jar         websocket-api.jar
+jasper.jar                  servlet-api.jar                 xapool-1.3.1.jar
+jaspic-api.jar              slf4j-api-1.7.9.jar
+jcl-over-slf4j-1.7.9.jar    slf4j-log4j12-1.7.9.jar
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# pwd
+/opt/atlassian/jira/lib
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# cp /home/ubuntu/Downloads/mysql-connector-java-5.1.36/mysql-connector-java-5.1.36-bin.jar .
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# ls -lart
+total 11916
+-rw-r--r--  1 root root   85476 Nov 28 11:19 xapool-1.3.1.jar
+-rw-r--r--  1 root root   36905 Nov 28 11:19 websocket-api.jar
+-rw-r--r--  1 root root  224850 Nov 28 11:19 tomcat-websocket.jar
+-rw-r--r--  1 root root  208448 Nov 28 11:19 tomcat-util-scan.jar
+-rw-r--r--  1 root root  143092 Nov 28 11:19 tomcat-util.jar
+-rw-r--r--  1 root root   34562 Nov 28 11:19 tomcat-jni.jar
+-rw-r--r--  1 root root  148296 Nov 28 11:19 tomcat-jdbc.jar
+-rw-r--r--  1 root root   42087 Nov 28 11:19 tomcat-i18n-ja.jar
+-rw-r--r--  1 root root   40792 Nov 28 11:19 tomcat-i18n-fr.jar
+-rw-r--r--  1 root root   66897 Nov 28 11:19 tomcat-i18n-es.jar
+-rw-r--r--  1 root root  278730 Nov 28 11:19 tomcat-dbcp.jar
+-rw-r--r--  1 root root  810072 Nov 28 11:19 tomcat-coyote.jar
+-rw-r--r--  1 root root   10664 Nov 28 11:19 tomcat-api.jar
+-rw-r--r--  1 root root    8867 Nov 28 11:19 slf4j-log4j12-1.7.9.jar
+-rw-r--r--  1 root root   32121 Nov 28 11:19 slf4j-api-1.7.9.jar
+-rw-r--r--  1 root root  244064 Nov 28 11:19 servlet-api.jar
+-rw-r--r--  1 root root  680445 Nov 28 11:19 postgresql-9.4.1212.jar
+-rw-r--r--  1 root root  145744 Nov 28 11:19 ots-jts-1.0.jar
+-rw-r--r--  1 root root    3305 Nov 28 11:19 objectweb-datasource-1.4.3.jar
+-rw-r--r--  1 root root  792491 Nov 28 11:19 mssql-jdbc-6.2.1.jre8.jar
+-rw-r--r--  1 root root  481535 Nov 28 11:19 log4j-1.2.16.jar
+-rw-r--r--  1 root root    4723 Nov 28 11:19 jul-to-slf4j-1.7.9.jar
+-rw-r--r--  1 root root    8812 Nov 28 11:19 jta-1.0.1B.jar
+-rw-r--r--  1 root root   61652 Nov 28 11:19 jsp-api.jar
+-rw-r--r--  1 root root    5824 Nov 28 11:19 jotm-jrmp_stubs-1.4.3.jar
+-rw-r--r--  1 root root   42654 Nov 28 11:19 jotm-iiop_stubs-1.4.3.jar
+-rw-r--r--  1 root root   64502 Nov 28 11:19 jotm-1.4.3.jar
+-rw-r--r--  1 root root   11428 Nov 28 11:19 jonas_timer-1.4.3.jar
+-rw-r--r--  1 root root   16614 Nov 28 11:19 jcl-over-slf4j-1.7.9.jar
+-rw-r--r--  1 root root   26912 Nov 28 11:19 jaspic-api.jar
+-rw-r--r--  1 root root  591616 Nov 28 11:19 jasper.jar
+-rw-r--r--  1 root root  164666 Nov 28 11:19 jasper-el.jar
+-rw-r--r--  1 root root  641570 Nov 28 11:19 hsqldb-1.8.0.5.jar
+-rw-r--r--  1 root root   82382 Nov 28 11:19 el-api.jar
+-rw-r--r--  1 root root 2450404 Nov 28 11:19 ecj-4.6.3.jar
+-rw-r--r--  1 root root  283697 Nov 28 11:19 catalina-tribes.jar
+-rw-r--r--  1 root root   75852 Nov 28 11:19 catalina-storeconfig.jar
+-rw-r--r--  1 root root 1641155 Nov 28 11:19 catalina.jar
+-rw-r--r--  1 root root  118606 Nov 28 11:19 catalina-ha.jar
+-rw-r--r--  1 root root   54183 Nov 28 11:19 catalina-ant.jar
+-rw-r--r--  1 root root     606 Nov 28 11:19 carol-properties-1.5.2.jar
+-rw-r--r--  1 root root  243597 Nov 28 11:19 carol-1.5.2.jar
+-rw-r--r--  1 root root   12371 Nov 28 11:19 annotations-api.jar
+drwxr-xr-x 15 root root    4096 Jan 16 11:52 ..
+drwxr-xr-x  2 root root    4096 Jan 16 12:02 .
+-rw-r--r--  1 root root  972009 Jan 16 12:02 mysql-connector-java-5.1.36-bin.jar
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# ls -lart
+total 11916
+-rw-r--r--  1 root root   85476 Nov 28 11:19 xapool-1.3.1.jar
+-rw-r--r--  1 root root   36905 Nov 28 11:19 websocket-api.jar
+-rw-r--r--  1 root root  224850 Nov 28 11:19 tomcat-websocket.jar
+-rw-r--r--  1 root root  208448 Nov 28 11:19 tomcat-util-scan.jar
+-rw-r--r--  1 root root  143092 Nov 28 11:19 tomcat-util.jar
+-rw-r--r--  1 root root   34562 Nov 28 11:19 tomcat-jni.jar
+-rw-r--r--  1 root root  148296 Nov 28 11:19 tomcat-jdbc.jar
+-rw-r--r--  1 root root   42087 Nov 28 11:19 tomcat-i18n-ja.jar
+-rw-r--r--  1 root root   40792 Nov 28 11:19 tomcat-i18n-fr.jar
+-rw-r--r--  1 root root   66897 Nov 28 11:19 tomcat-i18n-es.jar
+-rw-r--r--  1 root root  278730 Nov 28 11:19 tomcat-dbcp.jar
+-rw-r--r--  1 root root  810072 Nov 28 11:19 tomcat-coyote.jar
+-rw-r--r--  1 root root   10664 Nov 28 11:19 tomcat-api.jar
+-rw-r--r--  1 root root    8867 Nov 28 11:19 slf4j-log4j12-1.7.9.jar
+-rw-r--r--  1 root root   32121 Nov 28 11:19 slf4j-api-1.7.9.jar
+-rw-r--r--  1 root root  244064 Nov 28 11:19 servlet-api.jar
+-rw-r--r--  1 root root  680445 Nov 28 11:19 postgresql-9.4.1212.jar
+-rw-r--r--  1 root root  145744 Nov 28 11:19 ots-jts-1.0.jar
+-rw-r--r--  1 root root    3305 Nov 28 11:19 objectweb-datasource-1.4.3.jar
+-rw-r--r--  1 root root  792491 Nov 28 11:19 mssql-jdbc-6.2.1.jre8.jar
+-rw-r--r--  1 root root  481535 Nov 28 11:19 log4j-1.2.16.jar
+-rw-r--r--  1 root root    4723 Nov 28 11:19 jul-to-slf4j-1.7.9.jar
+-rw-r--r--  1 root root    8812 Nov 28 11:19 jta-1.0.1B.jar
+-rw-r--r--  1 root root   61652 Nov 28 11:19 jsp-api.jar
+-rw-r--r--  1 root root    5824 Nov 28 11:19 jotm-jrmp_stubs-1.4.3.jar
+-rw-r--r--  1 root root   42654 Nov 28 11:19 jotm-iiop_stubs-1.4.3.jar
+-rw-r--r--  1 root root   64502 Nov 28 11:19 jotm-1.4.3.jar
+-rw-r--r--  1 root root   11428 Nov 28 11:19 jonas_timer-1.4.3.jar
+-rw-r--r--  1 root root   16614 Nov 28 11:19 jcl-over-slf4j-1.7.9.jar
+-rw-r--r--  1 root root   26912 Nov 28 11:19 jaspic-api.jar
+-rw-r--r--  1 root root  591616 Nov 28 11:19 jasper.jar
+-rw-r--r--  1 root root  164666 Nov 28 11:19 jasper-el.jar
+-rw-r--r--  1 root root  641570 Nov 28 11:19 hsqldb-1.8.0.5.jar
+-rw-r--r--  1 root root   82382 Nov 28 11:19 el-api.jar
+-rw-r--r--  1 root root 2450404 Nov 28 11:19 ecj-4.6.3.jar
+-rw-r--r--  1 root root  283697 Nov 28 11:19 catalina-tribes.jar
+-rw-r--r--  1 root root   75852 Nov 28 11:19 catalina-storeconfig.jar
+-rw-r--r--  1 root root 1641155 Nov 28 11:19 catalina.jar
+-rw-r--r--  1 root root  118606 Nov 28 11:19 catalina-ha.jar
+-rw-r--r--  1 root root   54183 Nov 28 11:19 catalina-ant.jar
+-rw-r--r--  1 root root     606 Nov 28 11:19 carol-properties-1.5.2.jar
+-rw-r--r--  1 root root  243597 Nov 28 11:19 carol-1.5.2.jar
+-rw-r--r--  1 root root   12371 Nov 28 11:19 annotations-api.jar
+drwxr-xr-x 15 root root    4096 Jan 16 11:52 ..
+drwxr-xr-x  2 root root    4096 Jan 16 12:02 .
+-rw-r--r--  1 root root  972009 Jan 16 12:02 mysql-connector-java-5.1.36-bin.jar
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# 
+root@ubuntu-VirtualBox:/opt/atlassian/jira/lib# cd /
+root@ubuntu-VirtualBox:/# 
+root@ubuntu-VirtualBox:/# 
+root@ubuntu-VirtualBox:/# 
+root@ubuntu-VirtualBox:/# 
+root@ubuntu-VirtualBox:/# /etc/init.d/jira stop
+executing using dedicated user
+                .....
+          .... .NMMMD.  ...
+        .8MMM.  $MMN,..~MMMO.
+        .?MMM.         .MMM?.
+
+     OMMMMZ.           .,NMMMN~
+     .IMMMMMM. .NMMMN. .MMMMMN,
+       ,MMMMMM$..3MD..ZMMMMMM.
+        =NMMMMMM,. .,MMMMMMD.
+         .MMMMMMMM8MMMMMMM,
+           .ONMMMMMMMMMMZ.
+             ,NMMMMMMM8.
+            .:,.$MMMMMMM
+          .IMMMM..NMMMMMD.
+         .8MMMMM:  :NMMMMN.
+         .MMMMMM.   .MMMMM~.
+         .MMMMMN    .MMMMM?.
+
+      Atlassian JIRA
+      Version : 7.13.0
+                  
+
+If you encounter issues starting or stopping JIRA, please see the Troubleshooting guide at http://confluence.atlassian.com/display/JIRA/Installation+Troubleshooting+Guide
+
+
+Server startup logs are located in /opt/atlassian/jira/logs/catalina.out
+Using CATALINA_BASE:   /opt/atlassian/jira
+Using CATALINA_HOME:   /opt/atlassian/jira
+Using CATALINA_TMPDIR: /opt/atlassian/jira/temp
+Using JRE_HOME:        /opt/atlassian/jira/jre/
+Using CLASSPATH:       /opt/atlassian/jira/bin/bootstrap.jar:/opt/atlassian/jira/bin/tomcat-juli.jar
+Using CATALINA_PID:    /opt/atlassian/jira/work/catalina.pid
+Tomcat stopped.
+root@ubuntu-VirtualBox:/# 
+root@ubuntu-VirtualBox:/# 
+root@ubuntu-VirtualBox:/# 
+root@ubuntu-VirtualBox:/# /etc/init.d/jira start
+
+To run JIRA in the foreground, start the server with start-jira.sh -fg
+executing using dedicated user: jira
+                .....
+          .... .NMMMD.  ...
+        .8MMM.  $MMN,..~MMMO.
+        .?MMM.         .MMM?.
+
+     OMMMMZ.           .,NMMMN~
+     .IMMMMMM. .NMMMN. .MMMMMN,
+       ,MMMMMM$..3MD..ZMMMMMM.
+        =NMMMMMM,. .,MMMMMMD.
+         .MMMMMMMM8MMMMMMM,
+           .ONMMMMMMMMMMZ.
+             ,NMMMMMMM8.
+            .:,.$MMMMMMM
+          .IMMMM..NMMMMMD.
+         .8MMMMM:  :NMMMMN.
+         .MMMMMM.   .MMMMM~.
+         .MMMMMN    .MMMMM?.
+
+      Atlassian JIRA
+      Version : 7.13.0
+                  
+
+If you encounter issues starting or stopping JIRA, please see the Troubleshooting guide at http://confluence.atlassian.com/display/JIRA/Installation+Troubleshooting+Guide
+
+
+Server startup logs are located in /opt/atlassian/jira/logs/catalina.out
+Using CATALINA_BASE:   /opt/atlassian/jira
+Using CATALINA_HOME:   /opt/atlassian/jira
+Using CATALINA_TMPDIR: /opt/atlassian/jira/temp
+Using JRE_HOME:        /opt/atlassian/jira/jre/
+Using CLASSPATH:       /opt/atlassian/jira/bin/bootstrap.jar:/opt/atlassian/jira/bin/tomcat-juli.jar
+Using CATALINA_PID:    /opt/atlassian/jira/work/catalina.pid
+Tomcat started.
+root@ubuntu-VirtualBox:/# 
+root@ubuntu-VirtualBox:/# 
+root@ubuntu-VirtualBox:/# 
+
+
+
